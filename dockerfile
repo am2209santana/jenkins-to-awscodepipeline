@@ -1,5 +1,5 @@
-# FROM ubuntu:18.04
-FROM public.ecr.aws/lts/ubuntu:latest
+FROM ubuntu:18.04
+#FROM public.ecr.aws/lts/ubuntu:latest
 
 # Install dependencies
 RUN apt-get update && \
